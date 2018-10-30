@@ -1,0 +1,35 @@
+COMANDOS GIT
+
+dir				Lista de archivos (ls)
+cd				Abre los archivos
+type nul > ejemplo.txt/html	Crea un Archivo (touch)
+cls				Clear 
+git				comandos
+git add.			Add todos los archivos
+git commit -m "asdasd"		Comentarios
+git push (origin master)	
+
+WINDOWS
+(rm)				/Q ejemplo.txt					Unstage: Quita archivo del staging
+(rm -rf)			rd/s/Q name					Borra carpeta
+
+REPOSITORIO GIT
+git init primer_repo		Crea un repositorio de manera local (master)
+dir/A:H				Muestra los elementos ocultos
+dir/A:HS			" del sistema
+git status			Si sale en rojo esta en Working Directory
+git add				Agrego archivos al staging
+git add -A			Nos crea todos los archivos
+git rm --cached			unstage (Ctrl + Z)
+git rm -f(Borrado forsoso) ejemplo.css
+git log				nos muestra la historia de todos los commits que hemos realizado
+--ammed				Concatena nuevos cambios con cambios previos
+
+Ejemplo: (git commit -m 'asdasd' --ammed)
+	 git commit --ammed (Enter)
+	 Esc:wq
+git tag				Etiqueta versión (1.0, 2.0)
+
+Ejemplo: git tag -a(nombre de referencia etiqueta) 0.5 -m 'mensaje'
+
+-l 				Nos muestra la lista de etiquetas
